@@ -24,7 +24,7 @@ const newSeasons = {
     }, {
         id: 'Twenty-One',
         description: `There's more than enough! Plus I want to be able to do all the things I want with them!`,
-        amount: 20,
+        amount: 21,
         img: 'twenty.jpeg'
     }]
 };

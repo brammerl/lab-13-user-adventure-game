@@ -23,6 +23,7 @@ export const renderPlace = () => {
     choiceArray.forEach(choice => {
         const input = document.createElement('input');
         const label = document.createElement('label');
+        const br = document.createElement('br');
 
         input.type = 'radio';
         input.name = 'choice';
@@ -31,6 +32,7 @@ export const renderPlace = () => {
 
         label.textContent = `${choice.id}`;
         label.appendChild(input);
+        label.appendChild(br);
 
         formArea.appendChild(label);
     });

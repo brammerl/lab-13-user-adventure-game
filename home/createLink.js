@@ -8,7 +8,7 @@ export function createLink(obj) {
     link.href = '../place/?id=' + obj.id;
    
 
-    link.textContent = obj.id;
+    link.textContent = obj.title;
    
     return link;
 }

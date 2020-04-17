@@ -1,0 +1,17 @@
+#tasks {
+    background-image: url('../assets/places/portland.png');
+    height: 1000px;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 24x;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+

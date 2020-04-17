@@ -9,6 +9,8 @@ function loadHome() {
 
     actions.forEach(choice => {
         const liveLink = createLink(choice);
+        const br = document.createElement('br');
+        liveLink.appendChild(br);
         nav.append(liveLink);
     });
 

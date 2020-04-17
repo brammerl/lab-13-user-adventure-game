@@ -15,11 +15,12 @@ body {
 
 header {
     background-color: #B5EAD7;
-    text-align: center;
     padding: 5px;
     font-family: 'lobster';
     font-size: 32px;
-    color: #FF9AA2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 main {
@@ -31,31 +32,24 @@ main {
     font-family: 'roboto';
 }
 
-#name {
-    padding: 15px;
-    font-size: 20px;
- }
+#specs {
+    float: right; 
+}
 
-img {
-    width: 141px;
-    height: 213px;
+#fd {
+    float: left;
+    margin-right: 55%;
+}
+
+#avatar{
+    width: 70px;
+    height: 106px;
     border: 3px solid #C7CEEA;
     border-radius: 50px;
     margin-right: 10px;
+    vertical-align: middle;
 }
 
-label {
-    position: relative;
-}
-
-input[type=radio] {
-    display: none;
-}
-
-input[type=radio]:checked + img {
-    border: 7px solid #C7CEEA;
-}
-
-button {
-    padding: 10px;
+#avatar, #name, #count {
+    margin: 5px;
 }

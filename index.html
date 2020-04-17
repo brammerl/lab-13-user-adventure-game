@@ -13,12 +13,17 @@
         <h1>Floral Days</h1>
     </header>
     <main>
-        <h2>This is an interactive day involving what you would do if you were given the opportunity to turn a small gesture into a wonderful experience surrounding the theme of that gesture!</h2>
-        <form id='user'> 
+        <div id='instructions'>
+        <h2>A relaxing adventure depicting a beautiful Portland day</h2>
+        </div>
+        <div id='form'>
+        <form id='user'>
+            <h2>Enter Your Name</h2> 
             <label>
-                Your Name:
                 <input id='name' name='name' required>
             </label>
+            <br>
+            <h2>Choose your Character</h2>
             <label>
                 <input type='radio' name='icon' id='p1' class='radio'>
                 <img src='./assets/icons/icon1.png'>
@@ -43,8 +48,12 @@
                 <input type='radio' name='icon' id='p6' class='radio'>
                 <img src='./assets/icons/icon6.png'>
             </label>
+            <br>
+            <h2>Press Button When Ready To Begin</h2>
             <button>Start Your Day!</button>
+        
         </form>
+    </div>
     </main>
     <script type="module" src="app.js"></script>
 </body>
