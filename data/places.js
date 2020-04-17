@@ -1,11 +1,11 @@
 const newSeasons = {
     id: 'newSeasons',
-    title: 'Your local New Seasons',
+    title: 'Your Local New Seasons',
     // map: {
     //     top: '89%',
     //     left: '44%'
     // },
-    img: 'new-seasons.jpg',
+    img: '../assets/places/new-seasons.jpg',
     description: `
     You arrive at your local New Seasons and see that the floral department is
     giving away bundles of left over flowers to do whatever you want with! You 
@@ -30,7 +30,7 @@ const friendsHouse = {
     id: 'friendsHouse',
     title: `Your Friend's House`,
     // map:
-    img: 'friends-house.jpg',
+    img: '../assets/places/friends-house.jpg',
     description: `You decide to visit a friend's house to catch up! You decide to give them some flowers. How many do you want to give them?`,
     choices: [{
         id: 'One Yellow Lily',
@@ -54,7 +54,7 @@ const friendsHouse = {
 const craft = {
     id: 'craft',
     title: 'Do Some Crafts',
-    img: 'crafts-room.jpg',
+    img: '../assets/places/crafts-room.jpg',
     description: `Some of these flowers would be a great addition to a current project you're working on. How would you like to use the flowers?`,
     choices: [{
         id: 'Press flowers to put in your journal',
@@ -79,7 +79,7 @@ const craft = {
 const walk = {
     id: 'walk',
     title: 'Go On a Walk',
-    img: 'walk.jpeg',
+    img: '../assets/places/walk.jpeg',
     description: `It's such a nice day out that you decide to go on a walk! Where do you want to walk to?`,
     choices: [{
         id: 'Take a stroll through Lone Fir Cemetery',
