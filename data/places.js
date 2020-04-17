@@ -14,15 +14,18 @@ const newSeasons = {
     choices: [{
         id: 'Three',
         description: `You decide to only take a few to make sure there's enough for everyone!`,
-        amount: 3
+        amount: 3,
+        img: 'three.jpg'
     }, {
         id: 'A Dozen',
         description: `A dozen seems appropriate! Not too many, not too few!`,
-        amount: 12
+        amount: 12,
+        img: 'dozen.jpg'
     }, {
         id: 'Twenty-One',
         description: `There's more than enough! Plus I want to be able to do all the things I want with them!`,
-        amount: 20
+        amount: 20,
+        img: 'twenty.jpeg'
     }]
 };
 

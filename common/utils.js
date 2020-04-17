@@ -8,6 +8,8 @@ export const getIcon = () => {
     return icon;
 };
 
+
+
 export const updateUser = (userData) => {
     const stringed = JSON.stringify(userData);
     localStorage.setItem('user', stringed);
