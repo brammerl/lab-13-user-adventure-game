@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'lobster';
+    src: './fonts/Lobster/OFL.txt';
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: './fonts/Roboto/Roboto-Black.ttf';
+    src: './fonts/Roboto/Roboto-BlackItalic.ttf'
+}
+
+body {
+    background-color:#E2F0CB ;
+}
+
+header {
+    background-color: #B5EAD7;
+    padding: 5px;
+    font-family: 'lobster';
+    font-size: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main {
+    width: 90%;
+    background-color:#E2F0CB;
+    margin: 0px auto;
+    height: 100%;
+    text-align: center;
+    font-family: 'roboto';
+}
+
+#specs {
+    float: right; 
+}
+
+#fd {
+    float: left;
+    margin-right: 55%;
+}
+
+#avatar{
+    width: 70px;
+    height: 106px;
+    border: 3px solid #C7CEEA;
+    border-radius: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#avatar, #name, #count {
+    margin: 5px;
+}

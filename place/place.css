@@ -1,0 +1,30 @@
+#photo {
+   width: 650px;
+   height: 475px;
+}
+
+#intro {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 10px double black;
+    padding: 10px;
+}
+
+#answers {
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+}
+
+input[type=radio] {
+    margin: 10px;
+}
+
+#homeButton {
+    padding: 5px;
+    font-size: 16px;
+}
